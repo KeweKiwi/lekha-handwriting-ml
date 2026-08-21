@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Dataset
+# =========================
+data/raw/
+data/processed/
+*.zip
+
+# =========================
+# ML model artifacts
+# =========================
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.mlmodel
+*.mlpackage/
+*.mlmodelc/
+
+# =========================
+# Training outputs / logs
+# =========================
+runs/
+wandb/
+
+# =========================
+# Python tooling cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
